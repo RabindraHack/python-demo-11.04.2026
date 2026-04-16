@@ -26,7 +26,7 @@ user = {
         'city': 'Bhubaneswar'
     }
 }
-city = user.get('address', {}).get('city', 'Not Found')
+city = user.get('address', {}).get('city', 'Not Found') 
 
 print("City:", city)
 
